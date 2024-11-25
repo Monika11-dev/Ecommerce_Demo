@@ -54,9 +54,16 @@ export default function ProdDetails() {
         </Grid>
         <Grid container>
         <Grid size={{ xs: 12,sm:6, md: 5 }}>
+
+         {/* Product Image slider  */}
+
           <ProductSlider prodId={prodId}/>
         </Grid>
         <Grid size={{ xs: 12,sm:6, md: 7 }}>
+
+           {/* Product Details  */}
+           {/* Product name and description  */}
+
            <Proddetail prodId={prodId}/>
         </Grid>
         </Grid>
