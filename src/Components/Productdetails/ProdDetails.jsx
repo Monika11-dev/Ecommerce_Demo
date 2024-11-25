@@ -62,6 +62,7 @@ export default function ProdDetails() {
         <Grid size={{ xs: 12,sm:6, md: 7 }}>
 
            {/* Product Details  */}
+           {/* Product name and description  */}
 
            <Proddetail prodId={prodId}/>
         </Grid>
